@@ -19,13 +19,11 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <div className="mb-3">
-        <p className="font-medium">Hello, I'm a Full Stack Developer!</p>
+        <p className="font-medium">Hello, I'm a Game Developer!</p>
         <p>
-          with over 1 year of hands-on experience in building robust web applications. I specialize in{" "}
-          <span className="font-medium">React.js</span>,<span className="font-medium">Node.js</span>, and{" "}
-          <span className="font-medium">MongoDB/Firebase</span>, leveraging{" "}
-          <span className="font-medium">TypeScript</span> to enhance development workflows and create scalable,
-          efficient solutions.
+          with over 1 year of hands-on experience in building 2D, 3D, AR/VR games and applications. I specialize in{" "}
+          <span className="font-medium">Unity Engine</span> and{" "}
+          <span className="font-medium">Unreal Engine</span>, to development for Windows, Mobile, Web as well as Meta Quest.
         </p>
       </div>
       <div className="mb-3">
