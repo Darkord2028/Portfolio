@@ -20,7 +20,7 @@ export default function ProjectMediaGallery({
           mx-auto
           flex
           max-w-[50rem]
-          gap-6
+          gap-3
           overflow-x-auto
           pb-2
         "
