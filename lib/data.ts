@@ -6,6 +6,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import keyword1 from "@/public/keyword1.jpg";
 import sort1 from "@/public/sort1.jpg";
 import HillClimb_01 from "@/public/HillClimb_01.png";
+import ZooDrop_01 from "@/public/ZooDrop/Thumbnail.png"
 
 import DS4PEP_Thumbnail from "@/public/DS4PEP/DS4PEP_Thumbnail.png";
 import ARFruit_Thumbnail from "@/public/ARFruitScanner/Thumbnail.jpg";
@@ -153,23 +154,15 @@ export const gamesData = [
       "Built a 2D side-scrolling car game in Unity with realistic suspension, torque control, and terrain physics.",
     tags: ["Unity", "C#", "2D", "Physics", "Vehicle Simulation"],
     imageUrl: HillClimb_01,
-    playUrl: "https://abhi-dicaprio.itch.io/tic-tac-toe",
+    playUrl: "https://abhi-dicaprio.itch.io/mountain-racing",
   },
   {
-    title: "2D Car Physics Game",
+    title: "Zoo-Drop",
     description:
-      "Built a 2D side-scrolling car game in Unity with realistic suspension, torque control, and terrain physics.",
-    tags: ["Unity", "C#", "2D", "Physics", "Vehicle Simulation"],
-    imageUrl: HillClimb_01,
-    playUrl: "https://abhi-dicaprio.itch.io/tic-tac-toe",
-  },
-  {
-    title: "2D Car Physics Game",
-    description:
-      "Built a 2D side-scrolling car game in Unity with realistic suspension, torque control, and terrain physics.",
-    tags: ["Unity", "C#", "2D", "Physics", "Vehicle Simulation"],
-    imageUrl: HillClimb_01,
-    playUrl: "https://abhi-dicaprio.itch.io/tic-tac-toe",
+      "Zoo Drop is a cozy, addictive merge puzzle inspired by the viral Suika Game — but with animals! Drop adorable creatures into the enclosure, merge matching animals, and keep combining them until you create the mighty Blue Whale, the largest creature in the world!",
+    tags: ["Unity", "C#", "2D", "Physics", "Puzzle"],
+    imageUrl: ZooDrop_01,
+    playUrl: "https://abhi-dicaprio.itch.io/zoo-drop",
   },
 ] as const;
 
