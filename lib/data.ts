@@ -8,6 +8,7 @@ import sort1 from "@/public/sort1.jpg";
 import HillClimb_01 from "@/public/HillClimb_01.png";
 import ZooDrop_01 from "@/public/ZooDrop/Thumbnail.png"
 
+import Barrel_Thumbnail from "@/public/BarrelRace/Thumbnail.png";
 import DS4PEP_Thumbnail from "@/public/DS4PEP/DS4PEP_Thumbnail.png";
 import ARFruit_Thumbnail from "@/public/ARFruitScanner/Thumbnail.jpg";
 import Solar_Thumbnail from "@/public/SolarSystemExplorer/Thumbnail.jpg";
@@ -92,6 +93,8 @@ export const projectsData: ProjectData[] = [
     imageUrl: DS4PEP_Thumbnail,
     media: [
       {type: "image", src: "/DS4PEP/DS4PEP_Thumbnail.png"},
+      {type: "image", src: "/DS4PEP/01.png"},
+      {type: "image", src: "/DS4PEP/02.png"}
     ]
   },
   {
@@ -103,7 +106,7 @@ export const projectsData: ProjectData[] = [
     media: [
       {type: "image", src: "/ARFruitScanner/01.jpg"},
       {type: "image", src: "/ARFruitScanner/02.jpg"},
-      {type: "image", src: "/ARFruitScanner/03.png"},
+      {type: "image", src: "/ARFruitScanner/03.jpg"},
     ]
   },
   {
@@ -118,31 +121,15 @@ export const projectsData: ProjectData[] = [
     ]
   },
   {
-    title: "Keyword Extractor",
+    title: "Barrel Race",
     description:
-      "Keyword Extractor is a user-friendly React app that simplifies keyword extraction from text using the OpenAI API. Perfect for content optimization, research, and analysis",
-    tags: ["React", "Node.js", "JavaScript", "Firebase", "Open AI"],
-    imageUrl: keyword1,
+      "Barrel Race is a multiplayer racing game designed for web platforms. It uses Photon PUN 2 as its networking solution and allows up to six players to join a room and race against one another in real time.",
+    tags: ["Unity", "Photon Pun 2", "C#", "Webgl", "Multiplayer"],
+    imageUrl: Barrel_Thumbnail,
     media: [
-      {type: "video", src: "/media/Video_01.mp4"},
-      {type: "image", src: "/media/SS_01.png"},
-      {type: "image", src: "/media/SS_01.png"},
-      {type: "image", src: "/media/SS_01.png"},
-      {type: "image", src: "/media/SS_01.png"},
-    ]
-  },
-  {
-    title: "Selection Sort Simulator",
-    description:
-      "Experience a step-by-step selection sort simulation in HTML, CSS, and JS. Adjust speed, pause, and reset for optimal visual learning of sorting algorithms.",
-    tags: ["HTML", "CSS", "JavaScript"],
-    imageUrl: sort1,
-    media: [
-      {type: "video", src: "/media/Video_01.mp4"},
-      {type: "image", src: "/media/SS_01.png"},
-      {type: "image", src: "/media/SS_01.png"},
-      {type: "image", src: "/media/SS_01.png"},
-      {type: "image", src: "/media/SS_01.png"},
+      {type: "image", src: "/BarrelRace/Thumbnail.png"},
+      {type: "image", src: "/BarrelRace/01.png"},
+      {type: "image", src: "/BarrelRace/02.png"},
     ]
   },
 ] as const;

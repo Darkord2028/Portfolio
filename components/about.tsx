@@ -28,19 +28,12 @@ export default function About() {
       </div>
       <div className="mb-3">
         <p>
-          My expertise includes <span className="font-medium">optimizing APIs</span> and implementing{" "}
-          <span className="font-medium">RESTful solutions</span>, ensuring seamless communication between frontend and
-          backend systems. I'm skilled in <span className="font-medium">JavaScript</span>,{" "}
-          <span className="font-medium">HTML</span>, <span className="font-medium">CSS</span>, and{" "}
-          <span className="font-medium">Git</span>, with a strong focus on integrating cutting-edge technologies into
-          projects for maximum performance and responsiveness.
+          During my time at XR Central, I worked as both a Game Developer Intern and Game Developer Trainee, where I contributed to diverse and challenging projects. My experience includes developing a 2D side-scrolling car game with realistic suspension, torque control, and terrain physics, redesigning classic games with innovative mechanics, and building real-time multiplayer racing games using Photon PUN. I have also worked on advanced XR projects, including a HIV Prevention Training Simulation for Meta Quest and desktop platforms built in Unreal Engine 5.6, integrating the Convai SDK for real-time NPC conversations with dynamic facial expressions and movement.
         </p>
       </div>
       <div className="mb-3">
         <p>
-          In addition to web application development, I’ve built intuitive admin portals and managed full development
-          lifecycles, effectively balancing both frontend and backend responsibilities. I am passionate about staying
-          updated with the latest technologies, continuously driving innovation in my projects.
+          In addition to game development, I have experience in full stack development and have built web-based applications using Unity WebGL, featuring AI-generated content, real-time scoring systems, and responsive user interfaces optimized for browser performance. This allows me to effectively bridge interactive gameplay with web technologies.
         </p>
       </div>
 
