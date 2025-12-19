@@ -15,15 +15,15 @@ export default function GamesProjects() {
       id="games"
       className="scroll-mt-28 mb-28"
     >
-      <SectionHeading>Game Projects</SectionHeading>
+      <SectionHeading>Games</SectionHeading>
 
-      <div>
-        {gamesData.map((project, index) => {
-          const { playUrl, ...projectProps } = project;
+      <div className="mt-6 flex flex-col items-center gap-8">
+        {gamesData.map((game, index) => {
+          const { playUrl } = game;
 
           return (
-            <div key={index} className="mb-10">
-              <Project {...projectProps} />
+            <div key={index} className="w-full max-w-[50rem]">
+              <Project {...game} />
 
               {playUrl && (
                 <div className="mt-4 flex justify-center">
