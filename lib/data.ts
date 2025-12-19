@@ -29,7 +29,6 @@ export type ProjectData = {
 export type GamesData = {
   title: string;
   description: string;
-  imageUrl: StaticImageData;
   tags: readonly string[];
   playUrl?: string;
 };
