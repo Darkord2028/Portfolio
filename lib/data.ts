@@ -23,7 +23,7 @@ export type ProjectData = {
   description: string;
   tags: readonly string[];
   imageUrl: StaticImageData;
-  media?: ProjectMedia[];
+  media?: string[];
 };
 
 export const links = [
