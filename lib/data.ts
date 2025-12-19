@@ -84,7 +84,7 @@ export const experiencesData = [
   },
 ] as const;
 
-export const projectsData = [
+export const projectsData: ProjectData[] = [
   {
     title: "HIV Prevention Training Simulation",
     description:

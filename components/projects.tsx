@@ -14,15 +14,24 @@ export default function Projects() {
     <section ref={ref} id="projects" className="scroll-mt-28 mb-28">
       <SectionHeading>My projects</SectionHeading>
 
-      {/* Full width + spacing */}
       <div className="mt-4 mx-auto w-full max-w-none flex flex-col gap-10 px-6">
         {projectsData.map((project, index) => (
           <div
             key={index}
             className="w-full space-y-4 min-h-[25rem] p-4"
           >
-            <Project {...project} />
-            <ProjectMediaGallery media={project.media} />
+            {/* ✅ EXPLICIT PROPS ONLY */}
+            <Project
+              title={project.title}
+              description={project.description}
+              tags={project.tags}
+              imageUrl={project.imageUrl}
+            />
+
+            {/* media is handled separately */}
+            {project.media && (
+              <ProjectMediaGallery media={project.media} />
+            )}
           </div>
         ))}
       </div>
