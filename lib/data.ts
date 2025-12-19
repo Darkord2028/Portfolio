@@ -161,4 +161,4 @@ export const skillsData = [
   "Roblox Studio",
   "Git",
   "Object Oriented Programming",
-] as const;
+];
