@@ -26,6 +26,14 @@ export type ProjectData = {
   media?: ProjectMedia[];
 };
 
+export type GameData = {
+  title: string;
+  description: string;
+  tags: readonly string[];
+  imageUrl: StaticImageData;
+  playUrl: string;
+};
+
 export const links = [
   {
     name: "Home",
@@ -134,7 +142,7 @@ export const projectsData: ProjectData[] = [
   },
 ];
 
-export const gamesData = [
+export const gamesData: GameData[] = [
   {
     title: "2D Car Physics Game",
     description:

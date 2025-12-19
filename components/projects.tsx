@@ -20,15 +20,12 @@ export default function Projects() {
             key={index}
             className="w-full space-y-4 min-h-[25rem] p-4"
           >
-            {/* ✅ EXPLICIT PROPS ONLY */}
             <Project
               title={project.title}
               description={project.description}
               tags={project.tags}
               imageUrl={project.imageUrl}
             />
-
-            {/* media is handled separately */}
             {project.media && (
               <ProjectMediaGallery media={project.media} />
             )}
