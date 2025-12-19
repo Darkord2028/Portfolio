@@ -23,7 +23,7 @@ export type ProjectData = {
   description: string;
   tags: readonly string[];
   imageUrl: StaticImageData;
-  media?: string[];
+  media?: ProjectMedia[];
 };
 
 export const links = [
@@ -132,7 +132,7 @@ export const projectsData = [
       {type: "image", src: "/BarrelRace/02.png"},
     ]
   },
-] as const;
+];
 
 export const gamesData = [
   {
