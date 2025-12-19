@@ -26,13 +26,6 @@ export type ProjectData = {
   media?: ProjectMedia[];
 };
 
-export type GamesData = {
-  title: string;
-  description: string;
-  tags: readonly string[];
-  playUrl?: string;
-};
-
 export const links = [
   {
     name: "Home",
