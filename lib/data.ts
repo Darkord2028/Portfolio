@@ -142,7 +142,7 @@ export const projectsData: ProjectData[] = [
   },
 ];
 
-export const gamesData: GameData[] = [
+export const gamesData: readonly GameData[] = [
   {
     title: "2D Car Physics Game",
     description:
