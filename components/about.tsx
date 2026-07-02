@@ -18,22 +18,25 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
+      
       <div className="mb-3">
         <p className="font-medium">Hello, I'm a Game Developer!</p>
         <p>
-          with over 1.5 year of hands-on experience in building 2D, 3D, AR/VR games and applications. I specialize in{" "}
-          <span className="font-medium">Unity Engine</span> and{" "}
-          <span className="font-medium">Unreal Engine</span>, to development for Windows, Mobile, Web as well as Meta Quest.
+          With over 1.5 years of hands-on experience building 2D, 3D, and XR (AR/VR) applications. I specialize in{" "}
+          <span className="font-medium">Unity</span> and{" "}
+          <span className="font-medium">Unreal Engine</span>, developing for Windows, Mobile, Web, and Meta Quest.
         </p>
       </div>
+      
       <div className="mb-3">
         <p>
-          During my time at XR Central, I worked as both a Game Developer Intern and Game Developer Trainee, where I contributed to diverse and challenging projects. My experience includes developing a 2D side-scrolling car game with realistic suspension, torque control, and terrain physics, redesigning classic games with innovative mechanics, and building real-time multiplayer racing games using Photon PUN. I have also worked on advanced XR projects, including a HIV Prevention Training Simulation for Meta Quest and desktop platforms built in Unreal Engine 5.6, integrating the Convai SDK for real-time NPC conversations with dynamic facial expressions and movement.
+          At <span className="font-medium">HapzXR</span>, I engineered an immersive VR safety training simulation focused on "Working at Heights" site inspections, implementing interactive hazard detection and safety protocol tracking. Previously at <span className="font-medium">XR Central (XRC Studios)</span>, I developed diverse projects including an Unreal Engine 5.6 VR training simulation integrated with Convai AI NPCs, real-time multiplayer racers via Photon PUN, and physics-driven 2D gameplay.
         </p>
       </div>
+      
       <div className="mb-3">
         <p>
-          In addition to game development, I have experience in full stack development and have built web-based applications using Unity WebGL, featuring AI-generated content, real-time scoring systems, and responsive user interfaces optimized for browser performance. This allows me to effectively bridge interactive gameplay with web technologies.
+          In addition to traditional game development, I am experienced in bridging interactive gameplay with web technologies. I have built performance-optimized <span className="font-medium">Unity WebGL</span> applications featuring AI-generated content and real-time scoring. I thrive on turning complex mechanics and cutting-edge tech into seamless, interactive user experiences.
         </p>
       </div>
 

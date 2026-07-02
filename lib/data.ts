@@ -68,20 +68,19 @@ export const links = [
 export const experiencesData = [
   {
     title: "Game Developer",
-    location: "XRC Studios Pvt Ltd",
+    location: "HapzXR",
     description:
-      "Contributed to an Unreal Engine 5.6 VR training simulation for HIV prevention on Meta Quest and PC, implementing Convai-powered NPC conversations with facial expressions and animations. Developed a Unity WebGL quiz app featuring AI-generated questions, real-time scoring, and a responsive UI.",
+      "Engineered an immersive VR safety training simulation focused on 'Working at Heights' site inspections. Developed interactive hazard-detection mechanics, safety protocol tracking systems, and realistic environments to effectively train users on risk mitigation and industry compliance standards.",
     icon: React.createElement(CgWorkAlt),
-    date: "Aug 2025 - Nov 2025",
+    date: "Mar 2026 - Jun 2026",
   },
   {
-    title: "Game Developer Intern",
+    title: "Game Developer",
     location: "XRC Studios Pvt Ltd",
     description:
-      "Developed multiple Unity gameplay prototypes, including a 2D car physics game, a redesigned Suika-style puzzle game, and a real-time multiplayer obstacle racer using Photon PUN. Focused on gameplay programming, physics, networking, and rapid prototyping.",
+      "Developed diverse XR and WebGL applications, progressing from gameplay prototypes to full simulation deployment. Implemented Convai-powered AI NPCs with dynamic facial animations in an Unreal Engine 5.6 VR training simulation for Meta Quest and PC. Engineered a real-time multiplayer obstacle racer using Photon PUN, a responsive Unity WebGL quiz app, and various advanced physics-based gameplay systems.",
     icon: React.createElement(CgWorkAlt),
-
-    date: "Feb 2025 - July 2025",
+    date: "Feb 2025 - Nov 2025",
   },
   {
     title: "B.Sc Game Design and Development",
