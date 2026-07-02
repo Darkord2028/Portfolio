@@ -21,7 +21,7 @@ export default function About() {
       <div className="mb-3">
         <p className="font-medium">Hello, I'm a Game Developer!</p>
         <p>
-          with over 1 year of hands-on experience in building 2D, 3D, AR/VR games and applications. I specialize in{" "}
+          with over 1.5 year of hands-on experience in building 2D, 3D, AR/VR games and applications. I specialize in{" "}
           <span className="font-medium">Unity Engine</span> and{" "}
           <span className="font-medium">Unreal Engine</span>, to development for Windows, Mobile, Web as well as Meta Quest.
         </p>
